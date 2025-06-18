@@ -1,4 +1,4 @@
-from .extract_pdf import extract_missing_markdown
+from .extract_pdf import extract_missing_markdown, mise_a_jour
 from .chunking import  process_all_markdown
 from .index_elastic import cleanup_orphan_documents, create_index, index_chunks
 from .search import search_chunks
@@ -11,9 +11,11 @@ def init(model=None, index_name="rag_chunks"):
     print(model)
     print("Etape 1 — Extraction des nouveaux Markdown")
     #orphans = extract_missing_markdown()
+    supprimes = mise_a_jour()
 
     print("Etape 2 — Nettoyage des documents orphelins")
     #cleanup_orphan_documents(orphans)
+    cleanup_orphan_documents(supprimes)
 
     print("Etape 3 — Chunking des Markdown en JSON")
     process_all_markdown(model)
