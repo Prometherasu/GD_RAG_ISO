@@ -1,6 +1,6 @@
 import os
 import pymupdf4llm
-import pathlib
+from pathlib import Path
 
 # faire la detection des nouveau pdf pour evite de tout refaire a cahque fois ?
 def get_pdf_names(folder_path="data/pdf"):
@@ -35,7 +35,7 @@ def extract_missing_markdown(pdf_folder="data/pdf", md_folder="data/markdown"):
             md_text = to_clean_markdown(pdf_path)
 
             md_path = os.path.join(md_folder, base_name + ".md")
-            pathlib.Path(md_path).write_bytes(md_text.encode("utf-8"))
+            Path(md_path).write_bytes(md_text.encode("utf-8"))
             print(f"Markdown créé : {md_path}")
         else:
             print(f"Markdown deja crée : {pdf_file}")
@@ -59,6 +59,8 @@ def to_clean_markdown(pdf_path):# pas ouf
 
 
 def to_markdown(pdf_paths, output_folder="data/markdown"):
+    print("="*200)
+    print(pdf_paths)
     os.makedirs(output_folder, exist_ok=True)
 
     for pdf_path in pdf_paths:
@@ -68,7 +70,7 @@ def to_markdown(pdf_paths, output_folder="data/markdown"):
 
         output_path = os.path.join(output_folder, f"{base_name}.md")
 
-        pathlib.Path(output_path).write_bytes(md_text.encode("utf-8"))
+        Path(output_path).write_bytes(md_text.encode("utf-8"))
         print(f" Markdown sauvegardé : {output_path}")
 
 
@@ -103,6 +105,7 @@ def sauvegarder_index(pdf_list, index_path=INDEX_FILE):
 def detecter_changements():
     pdf_actuels = lister_pdfs_recurse()
     pdf_indexes = charger_index()
+    sauvegarder_index(pdf_actuels, INDEX_FILE)
 
     nouveaux = sorted(set(pdf_actuels) - set(pdf_indexes))
     supprimes = sorted(set(pdf_indexes) - set(pdf_actuels))
@@ -113,12 +116,14 @@ def detecter_changements():
 
 # on crée les nouveau markdown si on detecte de nouveau pdf, on retourne la liste a supprimer (car on veux aussi supp chunk ensuite)
 def mise_a_jour():
-    nouveaux, supprimes = detecter_changements()
+    nouveaux, supprimes = detecter_changements()#probleme ici on crée le doc mais si on reprend pan verifié si ona mis dans ES
     if nouveaux:
         print("Nouveaux PDF à traiter :")
         for pdf in nouveaux:
-            to_markdown(pdf, output_folder="data/markdown")
-            print(" +", pdf)
+            pdf_path = Path(PDF_DIR) / pdf
+            to_markdown([pdf_path], output_folder="data/markdown")
+
+            #print(" +", pdf)
 
     if supprimes:
         return supprimes

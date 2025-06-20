@@ -1,0 +1,35 @@
+# Service Report 1395_201025112922
+
+|To:|Col2|Col3|Col4|Col5|For:|Col7|Col8|Col9|
+|---|---|---|---|---|---|---|---|---|
+|Contact Name|Contact Name|Contact Name|Sophie Merlin|Sophie Merlin|Date|Date|25-Oct-2020 12:29 PM|25-Oct-2020 12:29 PM|
+|Contact Email|Contact Email|Contact Email|s.merlin@genesdiffusion.com|s.merlin@genesdiffusion.com|Work Order Number|Work Order Number|WO-00501395|WO-00501395|
+|Contact Phone|Contact Phone|Contact Phone|+33320877890|+33320877890|Case Number|Case Number|02076428|02076428|
+|Account|Account|Account|Account|Account|Account|Account|Account|Account|
+|Name|Name|Name|Genes Diffusion|Genes Diffusion|Address|Address|3595 route de Tournai BP<br>70023, Douai, Nord, 59500,<br>France|3595 route de Tournai BP<br>70023, Douai, Nord, 59500,<br>France|
+|Work Order Details|Work Order Details|Work Order Details|Work Order Details|Work Order Details|Work Order Details|Work Order Details|Work Order Details|Work Order Details|
+|Installed Product|Installed Product|Installed Product|N0257-11279781|N0257-11279781|Work Order Record Type|Work Order Record Type|Field Service|Field Service|
+|Product|Product|Product|ASSY.SCANNER, iScan|ASSY.SCANNER, iScan|Work Order Order Type|Work Order Order Type|Service Activities|Service Activities|
+|Problem Description|Problem Description|Problem Description|Problem Description|Problem Description|Problem Description|Problem Description|Problem Description|Problem Description|
+|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|Customer reported red laser to have failed and is below specification. ICS error: Error message: The scan cannot proceed because<br>the red laser power output is below specification.|
+|Closure|Closure|Closure|Closure|Closure|Closure|Closure|Closure|Closure|
+|Evaluation|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|Service contract: Bronze # 8000054714 Account # 6000000875|
+|Work Performed|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|23-Oct-2020: FSE Onsite. Red Laser need to be replaced. FSE replaced the Red Laser as par service Guide.<br>Adjustements done|
+|Verification<br>Results|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|Verification completed. Run Customers Samples after the service visite|
+|Billing Details|Billing Details|Billing Details|Billing Details|Billing Details|Billing Details|Billing Details|Billing Details|Billing Details|
+|Service Contract|Service Contract|Service Contract|Service Contract|Service Contract|Service Contract End Date|Service Contract End Date|Service Contract End Date|Service Contract End Date|
+|iScan Bronze Support Plan|iScan Bronze Support Plan|iScan Bronze Support Plan|iScan Bronze Support Plan|iScan Bronze Support Plan|24-Oct-2021|24-Oct-2021|24-Oct-2021|24-Oct-2021|
+|PO Number|PO Number|PO Number|PO Number|PO Number|N/A|N/A|N/A|N/A|
+|Parts Used|Parts Used|Parts Used|Parts Used|Parts Used|Parts Used|Parts Used|Parts Used|Parts Used|
+|Part Number|Part Number|Description|Description|Lot /Serial Number|Lot /Serial Number|Quantity|Quantity|Type|
+|15005106S|15005106S|SPARE, COHERENT RED<br>LASER, 658NM|SPARE, COHERENT RED<br>LASER, 658NM|N/A|N/A|1|1|Spare|
+|Tools Used|Tools Used|Tools Used|Tools Used|Tools Used|Tools Used|Tools Used|Tools Used|Tools Used|
+|Part Number|Part Number|Part Number|Description|Description|Serial Number|Serial Number|Calibration Due date|Calibration Due date|
+|15063941|15063941|15063941|TOOL, Sensor Wand, Newprt,<br>818-ST2-UV/DB|TOOL, Sensor Wand, Newprt,<br>818-ST2-UV/DB|0477|0477|02-Jul-2021 9:00 AM|02-Jul-2021 9:00 AM|
+|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|Labor & Travel Details|
+|Field Support|Field Support|Activity Type|Activity Type|Labor Hours|Labor Hours|Start Date and Time|Start Date and Time|End Date and Time|
+|Jacky Bismuth|Jacky Bismuth|Repair/Troubleshooting|Repair/Troubleshooting|9:30|9:30|23-Oct-2020 9:00 AM|23-Oct-2020 9:00 AM|23-Oct-2020 6:30 PM|
+
+
+Illumina Signature Customer Signature
+

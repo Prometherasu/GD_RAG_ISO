@@ -5,12 +5,12 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("all-MiniLM-L6-v2")
 #model = None
 def main():
-    delete_index()
+    #delete_index()
     exit = False
     first = True
     while not exit:
         if first:
-            init(model)
+            #init(model)
             first = False
 
         query = input("Pose ta question :\n> ")
